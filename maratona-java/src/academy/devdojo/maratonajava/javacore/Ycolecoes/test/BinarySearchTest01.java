@@ -14,9 +14,11 @@ public class BinarySearchTest01 {
         numeros.add(3);
 
         // (-(ponto de insercao) -1)
+        // index 0,1,2,3
+        // value 0,2,3,4
         Collections.sort(numeros);
-        System.out.println(Collections.binarySearch(numeros, 2));
-
+        System.out.println(Collections.binarySearch(numeros, 1));
+        System.out.println(Collections.binarySearch(numeros, -1));
 
     }
 }
